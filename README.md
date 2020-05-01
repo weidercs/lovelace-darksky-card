@@ -13,14 +13,14 @@ Hovering over a forecast day will display the daily weather summary in a tooltip
 
 **Installation**
 ------------------------------
-1. Add ```dark-sky-weather-card.js``` to your ```<config-dir>/www/custom_ui/``` directory.  If you don't have this directory (this is your first custom card), you will need to create it.
+1. Add ```lovelace-darksky-card.js``` to your ```<config-dir>/www/custom_ui/``` directory.  If you don't have this directory (this is your first custom card), you will need to create it.
 
 2. Download the amcharts icons from https://www.amcharts.com/dl/svg-weather-icons/ and put them in ```<config-dir>/www/icons/weather_icons```.  Create the directories if necessary.
 
 You should end up with the following folders:
 
-```<config-dir>/www/custom_ui/dark-sky-weather-card.js```
-
+```<config-dir>/www/custom_ui/lovelace-darksky-card.js```
+=
 ```<config-dir>/www/icons/weather_icons/animated/```
 
 ```<config-dir>/www/icons/weather_icons/static/```
