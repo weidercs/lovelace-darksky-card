@@ -75,7 +75,7 @@ The next two steps are completed differently based on the version of HA you are 
 
 ~~~~
 resources:
-  - url: /local/custom_ui/dark-sky-weather-card.js?v=7.1
+  - url: /local/custom_ui/lovelace-darksky-card.js?v=7.1
     type: module
 ~~~~
 
@@ -84,7 +84,7 @@ resources:
 Required entries must be present 
 in your configuration.  The card will not work at all if any of these lines are missing. 
 ~~~~
-type: 'custom:dark-sky-weather-card'
+type: 'custom:lovelace-darksky-card'
 entity_current_conditions: sensor.dark_sky_icon
 entity_temperature: sensor.dark_sky_temperature
 entity_forecast_high_temp_1: sensor.dark_sky_daytime_high_temperature_1d
