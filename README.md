@@ -20,7 +20,7 @@ Hovering over a forecast day will display the daily weather summary in a tooltip
 You should end up with the following folders:
 
 ```<config-dir>/www/custom_ui/lovelace-darksky-card.js```
-=
+
 ```<config-dir>/www/icons/weather_icons/animated/```
 
 ```<config-dir>/www/icons/weather_icons/static/```
