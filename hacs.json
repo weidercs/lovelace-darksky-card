@@ -1,5 +1,5 @@
 {
-  "name": "Rich Dark Sky Weather",
+  "name": "Dark Sky Rich Weather Card",
   "content_in_root": true,
   "filename": "lovelace-darksky-card.js",
   "render_readme": "true"
