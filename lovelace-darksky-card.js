@@ -771,5 +771,5 @@ style() {
 // ##### 
 // ##### Register the card as a customElement
 // #####
-customElements.define('dark-sky-weather-card', DarkSkyWeatherCard);
+customElements.define('lovelace-darksky-card', DarkSkyWeatherCard);
 
