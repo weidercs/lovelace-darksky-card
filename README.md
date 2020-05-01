@@ -1,4 +1,6 @@
 # Dark Sky Weather Card
+---
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 
 ![image](https://user-images.githubusercontent.com/45823145/53432443-83d83700-39c0-11e9-9c93-db6945f24d70.png)
 
