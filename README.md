@@ -14,13 +14,13 @@ Hovering over a forecast day will display the daily weather summary in a tooltip
 
 **Installation**
 ------------------------------
-1. Add ```lovelace-darksky-card.js``` to your ```<config-dir>/www/custom_ui/``` directory.  If you don't have this directory (this is your first custom card), you will need to create it.
+1. Search for Dark Sky Rich Weather Card in the HACS plugin list. Open it and click "Install" then "Add to Lovelace".
 
 2. Download the amcharts icons from https://www.amcharts.com/dl/svg-weather-icons/ and put them in ```<config-dir>/www/icons/weather_icons```.  Create the directories if necessary.
 
 You should end up with the following folders:
 
-```<config-dir>/www/custom_ui/lovelace-darksky-card.js```
+```<config-dir>/www/community/lovelace-darksky-card/lovelace-darksky-card.js```
 
 ```<config-dir>/www/icons/weather_icons/animated/```
 
@@ -71,14 +71,22 @@ The next two steps are completed differently based on the version of HA you are 
 - Pre 0.84 or if using yaml mode in 0.84 or above : Add to your ui-lovelace.yaml file.
 - Using storage mode in 0.84 or above use the "Raw Config Editor" to add the reference and definition to the config.
 
-2. Add the card reference at the top of the configuration
+2. Check to see if HACS has added the resource to your Home Assistant config. Go to Configration -> Lovelace Dashboards -> Resources.
 
-   **Note: Ensure type is set to module and not js**  
-   **Note: /local/ points to the ```<config-dir>/www/``` dir.**
+**Note: Ensure type is set to module and not js**
+**Note: /local/ points to the <config-dir>/www/ directory.**
 
 ~~~~
 resources:
-  - url: /local/custom_ui/lovelace-darksky-card.js?v=7.1
+  - url: /local/community/lovelace-darksky-card/lovelace-darksky-card.js
+    type: module
+~~~~
+
+**Note: If the resource is not properly found you may need to edit the url to the following:**
+
+~~~~
+resources:
+  - url: /local/community/lovelace-darksky-card/lovelace-darksky-card.js?v=7.1
     type: module
 ~~~~
 
