@@ -2,7 +2,7 @@
     "dark-sky-weather-card": {
       "updated_at": "2021-02-20",
       "version": "0.10.3",
-      "remote_location": "https://raw.githubusercontent.com/weidercs/lovelace-darksky-card/master/ui/darksky/dark-sky-weather-card.js",
+      "remote_location": "https://raw.githubusercontent.com/weidercs/lovelace-darksky-card/master/lovelace-darksky-card.js",
       "visit_repo": "https://github.com/weidercs/lovelace-darksky-card/tree/master/ui/darksky",
       "changelog": "https://github.com/weidercs/lovelace-darksky-card/blob/master/ui/darksky/changelog.md"
     }
