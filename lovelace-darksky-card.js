@@ -667,7 +667,7 @@ style() {
     
     switch (measure) {
       case 'air_pressure':
-        return lengthUnit === 'km' ? 'hPa' : 'mbar';
+        return lengthUnit === 'km' ? 'hPa' : 'inHg';
       case 'length':
         return lengthUnit;
       case 'precipitation':
